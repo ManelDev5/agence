@@ -233,13 +233,24 @@ header .antet .rezo{
 }
 /* section idee about*/
 .idee{
-    height: 600px;
-    display: flex;
+    height: 680px;
     padding: 20px;
+    margin-top: 10px;    
+}
+.idee1{
+    margin-bottom: 70px;
+
+}
+.idee1 h2{
+    text-indent: 100px;
+
+
+}
+.idee3{
+    display: flex;
     justify-content:center;
     gap: 60px;
     align-items: center;
-    margin-top: 10px;    
 }
 
 .idee .about2{
