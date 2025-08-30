@@ -658,3 +658,335 @@ text-align: center;
     color: #be7b06;
 }
 
+/* section apropo ki tou gen lot seksyon yo ladan*/
+.apropo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 50px 10%;
+  font-family: Arial, sans-serif;
+  background-color: #dddbdb;
+}
+
+
+.text span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.mission p{
+    color: #949090;
+}
+.apropo .text {
+  width: 50%;
+}
+
+.apropo h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.apropo p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.apropo .image {
+  width: 50%;
+}
+
+.apropo img {
+  width: 100%;
+  
+}
+
+.mission, .histoire {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.mission img, .histoire img {
+  width: 45%;
+  margin: 65px;
+  
+}
+
+.mission .text, .histoire .text {
+  width: 55%;
+  margin: 30px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+
+#ekip {
+  padding: 120px 20px;
+  background-color: #f9f9f9; ;
+  text-align: center;
+  margin-bottom: 120px;
+  
+
+}
+
+#ekip h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.ekip-kontene {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.manb-ekip {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.manb-ekip img {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.manb-ekip h3 {
+  margin: 10px 0 5px;
+}
+
+.manb-ekip .role {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.manb-ekip .bio {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.manb-ekip:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+/* Section Portfolio*/
+
+
+/*Sa se premye pati portfolio a*/
+
+.imaj-slide {
+  position: relative;
+  width: 100%;   /* lajè diaporama a */
+  height: 500px;  /* wotè diaporama a */
+  overflow: hidden;
+  margin: 0px auto; /* santre sou paj la */
+  
+}
+
+.imaj-slide img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: slide 9s infinite;
+}
+
+.imaj-slide img:nth-child(1) { animation-delay: 0s; }
+.imaj-slide img:nth-child(2) { animation-delay: 3s; }
+.imaj-slide img:nth-child(3) { animation-delay: 6s; }
+
+@keyframes slide {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+/*Sa se pou teks ki anndanl lan*/
+
+
+.slide {
+  position: absolute;
+  top: 50%;     
+  left: 50%;    
+  transform: translate(-50%, -50%); /* pou santre */
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  z-index: 2;  /* pou li pase sou imaj yo */
+}
+.slide p{
+    font-size: 17px;
+    
+}
+/*pou bouton ki anba teks lam*/
+
+.bouton{
+    background-color: #ffffff;
+    color: #be7b06 ;
+    padding: 10px 20px;
+    border:  #be7b06;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px 0px 10px 10px;
+    margin: 20px;
+}
+.bouton:hover {
+  background: #be7b06;
+  color: #000000;
+}
+
+
+/*se pou 2em pati porfolio a ki gen 12 imaj yo*/
+
+.poto{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.poto .potos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    margin: 40px;
+
+}
+.potos .tout{
+    text-align: center;
+}
+.potos i{
+    color: #be7b06;
+}
+.tout{
+    background-color: #949090;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #16161525;
+    
+}
+.poto h3{
+    margin: 20px;
+    font-size: 25px;
+}
+.poto img{
+    width: 100%;
+    height:370px;
+    gap: 30px;
+    }
+/*Sa se pou denye pati porfolio a sa ki gen kantite pwoje yo*/
+.statistik {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px;
+  background: #cac2c2;
+  margin-bottom: 70px;
+  
+
+}
+
+.stat h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #be7b06; 
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/*pati komtak*/
+.contact-section {
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  align-items: start;
+}
+
+.map-container {
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 96%;
+  font-size: 15px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #be7b06;
+  color: white;
+  border: none;
+  border-radius: 10px 10px 0px 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+  margin-left: 200px;
+}
+
+.contact-form button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.infos-contact {
+  background: #f0f4ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+iframe{
+    width: 550px;
+    height: 400px;
+gap: 30px;
+}
