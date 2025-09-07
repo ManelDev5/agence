@@ -1,80 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="uft-8">
-        <meta name="viewport" content="width=device-width,inatial-scale=1.0">
-        <title>nuvora agency | Contact</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width,inatial-scale=1.0">
+    <title>nuvora agency | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <!-- parti header a ki gen ladanl tout pati antet la,logo ,nav -->
-        <header>    <!-- sa se pati header a-->
-            <div class="antet">
-                <div class="nume">
-                    <img src="envelope.png" alt="envelope"><a href="mailto:orenet@gmail.com">orenet@gmail.com</a>
-                    <img src="phone-call.png" alt="phone-call"><p style="color: white;">+11 123 456 7890</p></a>
-                </div>
-                <div class="rezo">
-                    <a href="#"><img src="facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="instagram.png" alt="instagram"></a>
-                    <a href="#"><img src="linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img src="twitter.png" alt="linkedin"></a>
-                </div>
+    <header> <!-- sa se pati header a-->
+        <div class="antet">
+            <div class="nume">
+                <img src="envelope.png" alt="envelope"><a href="mailto:orenet@gmail.com">orenet@gmail.com</a>
+                <img src="phone-call.png" alt="phone-call">
+                <p style="color: white;">+11 123 456 7890</p></a>
             </div>
-            <div class="nav">
-                <div class="logo">
-                 <h1><a href="Accueil.html"><span style="color:#4b4a4a;">Nuvora</span><span style="color: #be7b06;font-size:20px;">agency</span></a></h1>
-                </div>
-                
-               <ul>
+            <div class="rezo">
+                <a href="#"><img src="facebook.png" alt="facebook"></a>
+                <a href="#"><img src="instagram.png" alt="instagram"></a>
+                <a href="#"><img src="linkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="twitter.png" alt="linkedin"></a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="logo">
+                <h1><a href="Accueil.html"><span style="color:#4b4a4a;">Nuvora</span><span
+                            style="color: #be7b06;font-size:20px;">agency</span></a></h1>
+            </div>
+
+            <ul>
                 <li><a href="Accueil.html">Accueil</a></li>
                 <li><a href="services.html">services</a></li>
                 <li><a href="A propos.html">A propos</a></li>
                 <li><a href="Potfolio.html">Portfolio</a></li>
                 <li><a href="Contact.html">Contact</a></li>
-               </ul>
+            </ul>
+        </div>
+    </header>
+
+    <body>
+        <!--Sa se pati fomile kontak ak iframe-->
+
+        <section class="contact-section">
+            <h2>Contactez-nous</h2>
+
+            <div class="contact-container">
+                <!-- Carte avec iframe -->
+                <div class="map-container">
+
+                    <!-- Iframe pou kat Okap -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.826138721278!2d-72.202898!3d19.759999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb18e7bafbf5d2f%3A0xf2b7a896c70aafd4!2sCap-Ha%C3%AFtien%2C%20Ha%C3%AFti!5e0!3m2!1sfr!2sht!4v1692452200000"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+
+                <!-- Formulaire -->
+                <form class="contact-form">
+                    <input type="text" name="nom" placeholder="Écrivez votre nom" required>
+                    <input type="text" lastname="lastname" placeholder="Écrivez votre prenom" required>
+                    <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+                    <textarea name="message" rows="6" placeholder="Votre message..." required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
             </div>
-        </header>
-        <body>
-    <!--Sa se pati fomile kontak ak iframe-->
 
-<section class="contact-section">
-  <h2>Contactez-nous</h2>
+            <!-- Infos de contact -->
+            <div class="infos-contact">
+                <h3>Informations de Contact</h3>
+                <p><strong>Adresse :</strong> Rue 12, N°34, Cap-Haïtien, Haïti</p>
+                <p><strong>Téléphone :</strong> +509 3285-0273</p>
+                <p><strong>Email :</strong>www.nuvoragency.com</p>
+            </div>
+        </section>
+        <!-- Bouton WhatsApp -->
+        <a class="whatsapp-btn" href="https://wa.me/+50932803324" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
 
-  <div class="contact-container">
-    <!-- Carte avec iframe -->
-    <div class="map-container">
-     
-     <!-- Iframe pou kat Okap -->
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.826138721278!2d-72.202898!3d19.759999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb18e7bafbf5d2f%3A0xf2b7a896c70aafd4!2sCap-Ha%C3%AFtien%2C%20Ha%C3%AFti!5e0!3m2!1sfr!2sht!4v1692452200000"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-      
-    </div>
-
-    <!-- Formulaire -->
-    <form class="contact-form">
-      <input type="text" name="nom" placeholder="Écrivez votre nom" required>
-       <input type="text" lastname="lastname" placeholder="Écrivez votre prenom" required>
-      <input type="email" name="email" placeholder="Votre adresse e-mail" required>
-      <textarea name="message" rows="6" placeholder="Votre message..." required></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
-  </div>
-
-  <!-- Infos de contact -->
-  <div class="infos-contact">
-    <h3>Informations de Contact</h3>
-    <p><strong>Adresse :</strong> Rue 12, N°34, Cap-Haïtien, Haïti</p>
-    <p><strong>Téléphone :</strong> +509 3285-0273</p>
-    <p><strong>Email :</strong>www.nuvoragency.com</p>
-  </div>
-</section>
-
-<!--partie footer ki gen yon sevtion ak plizye div!-->
+        <!--partie footer ki gen yon sevtion ak plizye div!-->
         <footer>
             <section class="foot">
                 <!--partie newsletter!-->
@@ -82,9 +89,9 @@
                     <div class="foot-letter">
                         <h2>Restez connecté avec nous !</h2>
                         <p>Recevez nos conseils web, actualités
-                         digitales et offres exclusives directement
-                          dans votre boîte mail.Un condensé de valeur 
-                          chaque semaine pour faire évoluer votre présence en ligne.</p>
+                            digitales et offres exclusives directement
+                            dans votre boîte mail.Un condensé de valeur
+                            chaque semaine pour faire évoluer votre présence en ligne.</p>
                     </div>
                     <div class="foot-form">
                         <form action="mail" method="get">
@@ -98,15 +105,18 @@
                 <div class="foot-div">
 
                     <div class="foot-logo">
-                        <h1><a href="Accueil.html" style="text-decoration: none;"> <span style="color: black;font-size: 40px;">Nuvora</span><span style="color: #be7b06;font-size: 20px;">Agency</span></a></h1>
-                        <p>Des sites web modernes, responsives  <br>et optimisés pour attirer plus de  <br>clients en ligne.
+                        <h1><a href="Accueil.html" style="text-decoration: none;"> <span
+                                    style="color: black;font-size: 40px;">Nuvora</span><span
+                                    style="color: #be7b06;font-size: 20px;">Agency</span></a></h1>
+                        <p>Des sites web modernes, responsives <br>et optimisés pour attirer plus de <br>clients en
+                            ligne.
                             Idéal pour professionnels, <br>entrepreneurs et petites entreprises.</p>
-                            <div class="image">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-youtube"></i>
-                                <i class="fa-brands fa-tiktok"></i>
-                            </div>
+                        <div class="image">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+                        </div>
                     </div>
 
                     <div class="foot-meni">
@@ -139,10 +149,16 @@
                         <h2>Contact</h2>
                         <nav>
                             <ul>
-                                <li><i class="fa-solid fa-location-dot" style="font-size: 17px;"></i> :<a href="#">123 Rue du Web,France</a></li>
-                                <li><i class="fa-solid fa-envelope" style="font-size: 17px;"></i> :<a href="mailto:info@nuvoraagency.com">infonuvoraagency.com</a></li>
-                                <li><i class="fa-solid fa-phone" style="font-size: 17px;"></i> :<a href="#"> +33 6 12 34 56 78</a></li>
-                                <li><i class="fa-solid fa-share-alt" style="font-size: 17px;"></i> :<a href="https://www.facebook.com/" target="_blank">Facebook</a>|<a href="https://www.instagram.com/" target="_blank">Instagram</a>|<a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>    
+                                <li><i class="fa-solid fa-location-dot" style="font-size: 17px;"></i> :<a href="#">123
+                                        Rue du Web,France</a></li>
+                                <li><i class="fa-solid fa-envelope" style="font-size: 17px;"></i> :<a
+                                        href="mailto:info@nuvoraagency.com">infonuvoraagency.com</a></li>
+                                <li><i class="fa-solid fa-phone" style="font-size: 17px;"></i> :<a href="#"> +33 6 12 34
+                                        56 78</a></li>
+                                <li><i class="fa-solid fa-share-alt" style="font-size: 17px;"></i> :<a
+                                        href="https://www.facebook.com/" target="_blank">Facebook</a>|<a
+                                        href="https://www.instagram.com/" target="_blank">Instagram</a>|<a
+                                        href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -151,7 +167,7 @@
                 <!-- patie ki gen ladanl copyright,design by... ak politique page la-->
                 <div class="copyright">
                     <p>Copyright © 2025 nuvora agency. Tous droits réservés.</p>
-                 
+
                     <div class="poli">
                         <p><a href="#">Politique de confidentialité</a> </p>
                         <p> <a href="#">Politique de cookies</a></p>
@@ -163,5 +179,5 @@
             </section>
         </footer>
     </body>
-    
+
 </html>
